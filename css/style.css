@@ -1,0 +1,123 @@
+/* Add link for google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Sans&family=Raleway:wght@400;700&family=Ubuntu+Mono:wght@400;700&display=swap");
+
+/* Change font to Raleway add a diagonal gradient to the background */
+body {
+  font-family: Raleway;
+  /* background-image: linear-gradient(to bottom right, lightgray, darkslategray); */
+}
+/* gradient background */
+.gradient {
+  background-image: linear-gradient(to bottom right, #0dcaf080, #20c99780);
+}
+
+/* Increase the size of our Store Name and change font to Courgette */
+.navbar-brand {
+  font-family: "Courgette", cursive;
+  font-size: 2.25em;
+}
+
+/* We increase the font-size for our item descriptions and add some padding */
+.product-description {
+  width: 100%;
+  font-size: 1.3rem;
+  padding: 0.25rem 0.5rem 1.25rem;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+}
+
+/* We style our prices to appear in bottom right overlaying our images */
+.product-price {
+  float: right;
+  /* transparent grey background */
+  /* background-color: rgba(127, 127, 127, 0.5); */
+  font-family: "Ubuntu Mono";
+  font-weight: bold;
+  color: #ff000079;
+  font-size: 1.5rem;
+  position: relative;
+  text-align: right;
+  bottom: 15%;
+  right: 3%;
+}
+
+/* We create a 'leaf' shape by adding rounded borders to opposite sides */
+.product-image {
+  border-radius: 0 48px;
+  padding: 0.25em;
+}
+
+/* In order to make our Item Name more visible we add a transparent black background. We also give this background a 'leaf' shape by adding border radius to opposite sides to match image shape */
+.product-name {
+  font-size: 1.25rem;
+  background-color: rgba(0, 0, 0, 0.15);
+  color: #fff;
+  margin-top: 12px;
+  margin-left: 12px;
+  padding: 2px 8px;
+  border-radius: 0 12px;
+  z-index: 2; /* We want this to be above the image */
+}
+
+/* A selector for images in our catalogue in order to set the animation duration */
+.product {
+  transition: transform 0.15s;
+  /* padding: 16px; */
+}
+
+/* We make our images larger when the mouse hovers over them */
+.product:hover {
+  opacity: 75%;
+  transform: scale(1.15);
+}
+
+/* Add some padding to our button */
+.btn {
+  padding: 0.25em;
+  margin: 1em;
+}
+
+/* Float our picture to the left and make it smaller on the item description page */
+.item-picture {
+  /* float: left; */
+  max-width: 70%;
+}
+
+/* Add custom styling to the blockquote */
+.blockquote {
+  font-size: 1.25rem;
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: bold;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 1em;
+  border-radius: 0 12px;
+}
+
+footer div {
+  /* We add some styling to our footer */
+  background-color: #20c99779; /* semi transparent teal background */
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 0.15em;
+}
+
+.shipping {
+  /* We add some styling to our shipping information.
+  hidden by default */
+  display: none;
+}
+
+.final-total {
+  /* We add some styling to our final total to make it larger and stand out */
+  float: right;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ff000079;
+}
+
+.product-details {
+  /* product details are hidden by default in order to animate it */
+  display: none;
+  opacity: 0;
+}
