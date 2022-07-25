@@ -97,6 +97,10 @@ $("#confirm-order").click(function () {
         "\nYour confirmation code is: " +
         generateConfirmationCode()
     );
+    // delete the cart from local storage
+    deleteCart();
+    // refresh the cart
+    refreshCart();
   } else {
     alert("Your cart is empty. Please add items to your cart.");
   }
