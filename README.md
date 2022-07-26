@@ -122,16 +122,14 @@ Main Page:
 
 ![Main Page](readme-images/index.png)
 
-Deals Page: 
+Deals Page:
 
 ![Deals Page](readme-images/deals.png)
 
-Cart Page: 
+Cart Page:
 
 ![Cart Page](readme-images/cart.png)
 
-```
 ## Credits
 
 All code written by [neil-feris](https://www.github.com/neil-feris) and [hyperiondev](https://www.hyperiondev.com/).
-```
