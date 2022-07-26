@@ -116,6 +116,20 @@ After installing the project, you can access it by opening a browser and typing 
 http://localhost
 ```
 
+<!-- insert images from readme-images folder -->
+
+Main Page:
+
+![Main Page](readme-images/index.png)
+
+Deals Page: 
+
+![Deals Page](readme-images/deals.png)
+
+Cart Page: 
+
+![Cart Page](readme-images/cart.png)
+
 ```
 ## Credits
 
