@@ -15,6 +15,7 @@
 ## Description
 
 An online store created for [hyperiondev](https://www.hyperiondev.com/) bootcamp.
+It loads products via JS and displays them in a grid. Elements are styled with bootstrap. Additionally, it has a shopping cart. It also has some interactivity added with jQuery.
 
 ## Installation
 
@@ -109,6 +110,14 @@ User can choose shipping options as well as apply a coupon code.
 
 ## Usage
 
+After installing the project, you can access it by opening a browser and typing in the following URL:
+
+```
+http://localhost
+```
+
+```
 ## Credits
 
 All code written by [neil-feris](https://www.github.com/neil-feris) and [hyperiondev](https://www.hyperiondev.com/).
+```
